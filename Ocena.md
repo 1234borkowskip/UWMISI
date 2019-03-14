@@ -1,6 +1,6 @@
-| cw 1 | cw 2 |
-|---|---|
-|2 pkt|2pkt|
+| cw 1 | cw 2 | cw 3|
+|---|---|---|
+|2 pkt|2pkt|1,5 pkt|
 
 Uwagi:
 
@@ -14,4 +14,4 @@ Uwagi:
 
 ### cw 3
 
-* cag - brak sprawdzenia warunków
+* cag - brak sprawdzenia warunków, kod robi za mało (brak daty urodzenia czy płci)
