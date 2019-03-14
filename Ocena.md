@@ -11,3 +11,7 @@ Uwagi:
 ### cw 2
 
 * brak
+
+### cw 3
+
+* cag - brak sprawdzenia warunków
