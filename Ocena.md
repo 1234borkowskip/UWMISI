@@ -1,6 +1,6 @@
-| cw 1 | cw 2 | cw 3| Cw 4|
-|---|---|---|---|
-|2 pkt|2pkt|1,5 pkt| 2pkt|
+| cw 1 | cw 2 | cw 3| Cw 4| cw 5|
+|---|---|---|---|---|
+|2 pkt|2pkt|1,5 pkt| 2pkt| nb |
 
 Uwagi:
 
