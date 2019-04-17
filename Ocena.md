@@ -1,8 +1,8 @@
 **proszę o zmianę ustawienia repozytorium na prywatne**
 
-| cw 1 | cw 2 | cw 3| Cw 4| cw 5|
-|---|---|---|---|---|
-|2 pkt|2pkt|1,5 pkt| 2pkt| nb |
+| cw 1 | cw 2 | cw 3| Cw 4| cw 5| cw 6| kolo 1|
+|---|---|---|---|---|---|---|
+|2 pkt|2pkt|1,5 pkt| 2pkt| 0 pkt | 2 pkt | 6 pkt |
 
 Uwagi:
 
@@ -21,3 +21,13 @@ Uwagi:
 ### cw 4
 
 * wszystko ok
+
+### cw 5
+
+* brak
+
+### cw 6
+ 
+* faa - klucz do deszyfracji powinien być programistycznie wyznaczony a nie na sztywno
+* fab - konstruktor nie ma parametrów
+* faf - funkcja finalnie nie zwraca krotki tylko ją wyświetla
