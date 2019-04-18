@@ -31,3 +31,7 @@ Uwagi:
 * faa - klucz do deszyfracji powinien być programistycznie wyznaczony a nie na sztywno
 * fab - konstruktor nie ma parametrów
 * faf - funkcja finalnie nie zwraca krotki tylko ją wyświetla
+
+### cw 8
+
+* na razie brak
