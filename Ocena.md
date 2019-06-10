@@ -2,7 +2,7 @@
 
 | cw 1 | cw 2 | cw 3| Cw 4| cw 5| cw 6| kolo 1| cw 8 | cw 9 | cw 10| cw 11| cw 12|
 |---|---|---|---|---|---|---|---|---|---|---|---|
-|2 pkt|2pkt|1,5 pkt| 2pkt| 0 pkt | 2 pkt | 6 pkt | 0 pkt | 2 pkt | 0 pkt | 0 pkt | 0 pkt|
+|2 pkt|2pkt|1,5 pkt| 2pkt| 0 pkt | 2 pkt | 18 pkt | 0 pkt | 2 pkt | 0 pkt | 0 pkt | 0 pkt|
 
 Uwagi:
 
