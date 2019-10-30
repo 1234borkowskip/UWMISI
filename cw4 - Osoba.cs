@@ -8,18 +8,18 @@ namespace cw4
 {
     class Osoba
     {
-        public string imie;
-        public string nazwisko;
-        public int dataUrodzenia;
+        protected string imie;
+        protected string nazwisko;
+        protected int dataUrodzenia;
 
-        public Osoba(string imie, string nazwisko, int dataUrodzenia)
+        protected Osoba(string imie, string nazwisko, int dataUrodzenia)
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
             this.dataUrodzenia = dataUrodzenia;
         }
 
-        public void Wypiszinfo()
+        protected void Wypiszinfo()
         {
             Console.WriteLine(imie + " " + nazwisko + " " + dataUrodzenia);
         }
