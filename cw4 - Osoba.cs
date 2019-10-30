@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,17 +11,19 @@ namespace cw4
         protected string imie;
         protected string nazwisko;
         protected int dataUrodzenia;
+        protected string miejsceZamieszkania;
 
-        protected Osoba(string imie, string nazwisko, int dataUrodzenia)
+        protected Osoba(string imie, string nazwisko, int dataUrodzenia, string miejsceZamieszkania)
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
             this.dataUrodzenia = dataUrodzenia;
+            this.miejsceZamieszkania = miejsceZamieszkania;
         }
 
         protected void Wypiszinfo()
         {
-            Console.WriteLine(imie + " " + nazwisko + " " + dataUrodzenia);
+            Console.WriteLine(imie + " " + nazwisko + " " + dataUrodzenia + " " + miejsceZamieszkania);
         }
     }
 }
