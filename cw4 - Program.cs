@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace cw4
     {
         static void Main(string[] args)
         {
-            Student ja2 = new Student("x", "DDDD", 1999, 2, 1, 151280);
+            Student ja2 = new Student("x", "DDDD", 1999, "Olsztyn", 2, 1, 151280);
             ja2.Wypiszinfo();
             Console.ReadKey();
 
