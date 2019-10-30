@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace cw4
         public int numerGrupy;
         public int numerAlbumu;
 
-        public Student(string imie, string nazwisko, int dataUrodzenia, int rok, int numerGrupy, int numerAlbumu) : base(imie, nazwisko, dataUrodzenia)
+        public Student(string imie, string nazwisko, int dataUrodzenia, string miejsceZamieszkania, int rok, int numerGrupy, int numerAlbumu) : base(imie, nazwisko, dataUrodzenia, miejsceZamieszkania)
         {
             this.rok = rok;
             this.numerGrupy = numerGrupy;
@@ -21,7 +21,7 @@ namespace cw4
 
         public void Wypiszinfo()
         {
-            Console.WriteLine(imie + " " + nazwisko + " " + dataUrodzenia + " " + rok + " " + numerGrupy + " " + numerAlbumu);
+            Console.WriteLine(imie + " " + nazwisko + " " + dataUrodzenia + " " + miejsceZamieszkania + " " + rok + " " + numerGrupy + " " + numerAlbumu);
         }
     }
 }
