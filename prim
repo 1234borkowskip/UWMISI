@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace prim
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+        }
+
+
+        List<Krawedz> kolejka;
+
+        Graf StartPrima(Node start)
+        {
+            Node n = start;
+            var mDrzewo = new Graf(start);
+            kolejka = new List<Krawedz>();
+            while(true)
+            {
+                primaNode(n);
+                if (this.kolejka.Count < 1) break;
+                k = this.kolejka.OrderBy(k => k.waga).FirstOrDefault();
+                var tmp = mDrzewo.DodajKrawedz(k);
+                n = tmp.First();
+            }
+            return mDrzewo;
+        }
+
+        void primaNode(Node n)
+        {
+            var kr = this.ZnajdzKrawedzie(n);
+            foreach(var k in kr)
+            {
+                if (this.kolejka.Contains(k))
+                {
+                    this.kolejka.Remove(k);
+                }
+                else
+                {
+                    this.kolejka.Add(k);
+                }
+            }
+        }
+
+
+    }
+}
